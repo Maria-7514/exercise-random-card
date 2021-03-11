@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.container {
+  margin-left: 550px;
+  margin-top: 110px;
+}
+.card {
+  display: inline-block;
+  margin: auto;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  padding: 15px;
+}
+
+h1 {
+  margin: auto;
+  padding-left: 120px;
+  margin-top: 110px;
+  font-size: 80px;
+}
+#simbolo {
+  font-size: 75px;
+
+  position: absolute;
+  top: 5px;
+  padding-left: 5px;
+  font-size: 75px;
+}
+
+#symbolbtn {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  font-size: 75px;
+  transform: rotate(180deg);
+}
+
+.cardColorRed {
+  color: red;
+}
